@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    scrollbar-width: none;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    /* text-align: center; */
+    padding: 0px 15px;
+}
+
+.ddoData > tr > td, .ddoData > tr > th {
+    border: 1px solid black;
+}
+
+textarea {
+    resize: none;
+  }
